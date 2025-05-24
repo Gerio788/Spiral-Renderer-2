@@ -1,10 +1,3 @@
-# _________________________________________
-#|                                         |
-#|     Created by Idiot Industries© LLC    |
-#|     2024-2025 Justin Ho                 |
-#|                                         |
-#|_________________________________________|
-
 from turtle import *
 
 def check_cond_str(true_cond, false_cond, input_str):
