@@ -97,7 +97,7 @@ for i in range(max_iteration):
 	forward(i * spacing)
 	left(set_angle)
 	color(C[c_select])
-	if rainbow_mode == True: #If you changed the booleen variable 'multi_colour' to 'False', it will select the first string on the list 'c'
+	if rainbow_mode == True:
 		for x in range(6):
 			c_select += 1
 			if c_select == 6: c_select = -1
